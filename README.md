@@ -1,1 +1,1 @@
-"Java Revival - Day 1" 
+"Java Revival Day 1" 
