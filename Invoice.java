@@ -1,5 +1,5 @@
 
- public class Invoice {
+public class Invoice{
 	double amount;
 	String cusName, invoiceID;
 	public void display(){

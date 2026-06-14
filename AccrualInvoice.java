@@ -1,11 +1,11 @@
- class Invoice {
+ class Invoice1 {
 	double amount;
 	String cusName, invoiceID;
 	public void display(){
 		System.out.println(amount + " " +cusName + " " +invoiceID );
 	}
 		
-	public Invoice(double amount, String cusName,String invoiceID) {
+	public Invoice1(double amount, String cusName,String invoiceID) {
 		this.amount = amount;
 		this.cusName = cusName;
 		this.invoiceID = invoiceID;
@@ -13,7 +13,7 @@
 	}
 }
 
- public class AccrualInvoice extends Invoice{
+ public class AccrualInvoice extends Invoice1{
 	String accDate;
 	
 	public AccrualInvoice(double amount, String cusName, String invoiceID, String accDate) {
@@ -25,7 +25,7 @@
 	}
 	public static void main(String[] args) {
 		
-		Invoice obj = new AccrualInvoice(6123, "Petronas", "123456789", "12345");
+		Invoice1 obj = new AccrualInvoice(6123, "Petronas", "123456789", "12345");
 		obj.display();
 	}
 
